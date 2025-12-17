@@ -80,7 +80,7 @@ export default function LoginForm() {
           </a>
         </div>
 
-        <Button type="submit" className="w-full h-12 text-base font-semibold">
+        <Button type="submit" className="w-full h-12 text-base font-semibold flex items-center justify-center">
           Sign In
         </Button>
       </form>

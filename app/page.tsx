@@ -26,7 +26,7 @@ export default function Page() {
           <p className="text-lg text-white/70 max-w-md">
             Access your dashboard securely. Manage claims, benefits, and more with our comprehensive platform.
           </p>
-          
+
           {/* Decorative elements */}
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
           <div className="absolute top-20 right-20 w-64 h-64 bg-white/5 rounded-full blur-2xl" />
