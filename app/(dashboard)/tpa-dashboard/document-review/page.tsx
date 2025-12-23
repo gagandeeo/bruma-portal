@@ -90,8 +90,8 @@ export default function DocumentReviewPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <main className="pt-16">
-        <div className="max-w-[1920px] mx-auto px-6 py-8">
+      <main className="">
+        <div className="max-w-3/4 mx-auto px-6 py-8">
           <div className="mb-6">
             <div className="mt-4">
               <h1 className="text-3xl font-semibold text-foreground">Document Review</h1>
