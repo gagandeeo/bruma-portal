@@ -11,16 +11,18 @@ import { Label } from '../ui/label';
 import LoginSlider from './LoginSlider';
 import { Input } from '../ui/input';
 import { Eye, EyeOff } from "lucide-react";
+import { useRouter } from 'next/navigation';
 
 export default function LoginForm() {
   const [loginType, setLoginType] = useState<"tpa" | "sponsor">("tpa");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
+  const router = useRouter();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Login attempt:", { loginType, email, password });
+    router.push('/tpa-dashboard');
   };
 
   return (
