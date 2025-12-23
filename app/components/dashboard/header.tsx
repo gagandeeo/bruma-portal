@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Icon from '../ui/AppIcon';
+import { wix } from '@/app/components/ui/fonts';
 
 interface HeaderProps {
     userRole?: 'tpa' | 'sponsor';
@@ -59,11 +60,11 @@ const Header = ({
             <div className="flex items-center justify-between h-16 px-6 border-b border-border">
                 <div className="flex items-center gap-8">
                     <Link href={userRole === 'tpa' ? '/tpa-dashboard' : '/sponsor-dashboard'} className="flex items-center gap-2">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        {/* <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="32" height="32" rx="6" fill="#2563EB" />
                             <path d="M10 12h12M10 16h12M10 20h8" stroke="white" strokeWidth="2" strokeLinecap="round" />
-                        </svg>
-                        <span className="text-xl font-semibold text-foreground">DocFlow Portal</span>
+                        </svg> */}
+                        <span className={`${wix.className} antialiased text-xl font-bold text-[#02f4fa]`}>Bruma</span>
                     </Link>
 
                     <nav className="md:flex items-center gap-1">
