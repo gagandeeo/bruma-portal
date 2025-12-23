@@ -9,10 +9,8 @@ export default function RootLayout({
 }) {
     return (
         <>
-            <div className="pt-16">
-                <div className="max-w-7xl mx-6 px-6 py-6">
-                    <Header userRole="tpa" userName="Admin User" notificationCount={3} />
-                </div>
+            <div className="max-w-7xl mx-6 px-6">
+                <Header userRole="tpa" userName="Admin User" notificationCount={3} />
             </div>
             {children}
         </>

@@ -64,7 +64,7 @@ const Header = ({
                             <rect width="32" height="32" rx="6" fill="#2563EB" />
                             <path d="M10 12h12M10 16h12M10 20h8" stroke="white" strokeWidth="2" strokeLinecap="round" />
                         </svg> */}
-                        <span className={`${wix.className} antialiased text-xl font-bold text-[#02f4fa]`}>Bruma</span>
+                        <span className={`${wix.className} antialiased text-3xl font-semibold text-[#02f4fa]`}>Bruma</span>
                     </Link>
 
                     <nav className="md:flex items-center gap-1">

@@ -10,8 +10,8 @@ export default function RequirementManagementPage() {
     return (
         <div className="min-h-screen bg-background">
 
-            <main className="pt-16">
-                <div className="max-w-7xl mx-auto px-6 py-8">
+            <main className="">
+                <div className="max-w-2/3 mx-auto px-6 py-8">
                     <div className="mb-8">
                         <h1 className="text-3xl font-bold text-foreground mb-2">Requirement Management</h1>
                         <p className="text-muted-foreground">

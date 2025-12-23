@@ -39,7 +39,7 @@ const DocumentViewer = ({ document }: DocumentViewerProps) => {
     };
 
     return (
-        <div className="flex flex-col h-[50%] bg-muted rounded-lg">
+        <div className="flex flex-col h-[45%] bg-muted rounded-lg">
             <div className="flex items-center justify-between px-4 py-3 bg-card border-b border-border">
                 <div className="flex items-center gap-3">
                     <Icon name="DocumentTextIcon" size={20} className="text-primary" />
