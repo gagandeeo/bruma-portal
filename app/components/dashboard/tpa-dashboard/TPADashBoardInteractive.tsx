@@ -177,7 +177,7 @@ const TPADashboardInteractive = () => {
     }
 
     return (
-        <div className="min-h-screen bg-background pt-16">
+        <div className="min-h-screen bg-background">
             <div className="max-w-2/3 mx-auto px-6 py-8">
                 <div className="mb-8">
                     <h1 className="text-3xl font-semibold text-foreground mb-2">TPA Dashboard</h1>
