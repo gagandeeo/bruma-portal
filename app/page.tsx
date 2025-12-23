@@ -24,7 +24,7 @@ export default function Page() {
             <span className="text-white/80">trusted portal</span>
           </h1>
           <p className="text-lg text-white/70 max-w-md">
-            Access your dashboard securely. Manage claims, benefits, and more with our comprehensive platform.
+            Access your dashboard securely. Manage sponsors, plans, and everything.
           </p>
 
           {/* Decorative elements */}

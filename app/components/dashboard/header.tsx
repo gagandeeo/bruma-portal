@@ -25,9 +25,9 @@ const Header = ({
 
     const tpaNavigation = [
         { name: 'Dashboard', href: '/tpa-dashboard', icon: 'ChartBarIcon' },
-        { name: 'Sponsors', href: '/sponsor-management', icon: 'BuildingOfficeIcon' },
-        { name: 'Requirements', href: '/requirement-management', icon: 'DocumentTextIcon' },
-        { name: 'Documents', href: '/document-review', icon: 'FolderOpenIcon' },
+        { name: 'Sponsors', href: '/tpa-dashboard/sponsor-management', icon: 'BuildingOfficeIcon' },
+        { name: 'Requirements', href: '/tpa-dashboard/requirement-management', icon: 'DocumentTextIcon' },
+        { name: 'Documents', href: '/tpa-dashboard/document-review', icon: 'FolderOpenIcon' },
     ];
 
     const sponsorNavigation = [
