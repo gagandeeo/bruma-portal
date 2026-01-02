@@ -2,7 +2,7 @@ import AcmeLogo from './components/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Image from 'next/image';
-import { lusitana } from './components/ui/fonts';
+import { wix } from './components/ui/fonts';
 import LoginForm from './components/login/login-form';
 import { ShieldCheck } from "lucide-react";
 
@@ -15,9 +15,9 @@ export default function Page() {
         <div className="relative z-10 flex flex-col justify-center px-16 xl:px-24">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
-              <ShieldCheck className="w-7 h-7 text-white" />
+              <ShieldCheck className="w-7 h-7 text-[#02f4fa]" />
             </div>
-            <span className="text-2xl font-bold text-white">SecurePortal</span>
+            <span className={`${wix.className} antialiased text-5xl font-bold text-[#02f4fa]`}>Bruma</span>
           </div>
           <h1 className="text-4xl xl:text-5xl font-bold text-white leading-tight mb-6">
             Welcome to your<br />
