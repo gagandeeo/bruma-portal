@@ -22,7 +22,12 @@ export default function LoginForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    router.push('/tpa-dashboard');
+    if (email.toLowerCase() == "admin@brumainc.com" && password == "adminForBruma@123%6") {
+      router.push('/tpa-dashboard');
+    }
+    else {
+      alert("Invalid credentials");
+    }
   };
 
   return (
